@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morpion</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+        
+        
+        <div class="resultat"><p id="result">Vainqueur</p></div>
+        <div id="game">
+        <table>  
+        <tr>
+            <td>
+                <button class="selection" id="1"></button>
+            </td>
+            <td>
+                <button class="selection" id="2"></button>
+            </td>
+            <td>
+                <button class="selection" id="3"></button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button class="selection" id="4"></button>
+            </td>
+            <td>
+                <button class="selection" id="5"></button>
+            </td>
+            <td>
+                <button class="selection" id="6"></button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button class="selection" id="7"></button>
+            </td>
+            <td>
+                <button class="selection" id="8"></button>
+            </td>
+            <td>
+                <button class="selection" id="9"></button>
+            </td>
+        </tr>    
+    </table>
+</div>
+
+
+<div class="score"><p>Scores :</p></div>
+    <table class="jeu">
+        <tr>
+            <td>
+                <p>Equipe X</p>  
+            </td>
+            <td>
+                <div class="affichage">
+                    <span class="c">0</span>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Equipe 0</p>
+            </td>
+            <td>
+                <div class="affichage">
+                    <span class="compteur2">0</span>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <div class="nouvelle">
+        <input type="submit"class="partie" value="Nouvelle partie">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="./actions.js"></script>
+    
+</body>
+</html>

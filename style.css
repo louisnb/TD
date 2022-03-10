@@ -1,0 +1,50 @@
+.selection
+{
+    height: 50px;
+    width: 50px;
+}
+
+table
+{
+    margin-left: 40%;
+}
+
+.resultat
+{
+    width: 160px;
+    margin-left: 40%;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.score p
+{
+    margin-top: 80px;
+    width: 160px;
+    border: solid 1px black;
+    margin-left: 40%; 
+    text-align: center;
+}
+
+.jeu p
+{
+    width: 118px;
+}
+
+.jeu td{
+    
+    text-align: center;
+    border: 1px solid black;
+    
+  }
+
+.affichage
+{
+    width: 34px;
+}
+
+.nouvelle
+{
+    margin-top: 10px;
+    margin-left: 43%; 
+}
